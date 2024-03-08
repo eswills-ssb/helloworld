@@ -1,0 +1,13 @@
+#%RAML 1.0
+title: hello-world
+mediaType: application/json
+
+/hello:
+  displayName: hello
+  description: hello
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            example: { "hello": "world" }
